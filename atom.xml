@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title><![CDATA[Blog]]></title>
+	<link href="http://kmnmy.github.io/atom.xml" rel="self"/>
+	<link href="http://kmnmy.github.io/"/>
+	<updated>2014-07-29T23:22:34+09:00</updated>
+	<id>http://kmnmy.github.io/</id>
+	<author>
+		<name><![CDATA[K.Minamiya]]></name>
+		
+	</author>
+	<generator uri="http://octopress.org/">Octopress</generator>
+
+	
+	<entry>
+		
+			<title type="html"><![CDATA[大規模運営に必要なiBeaconについての正しい知識]]></title>
+		
+		<link href="http://kmnmy.github.io/blog/2014/05/26/title/"/>
+		<updated>2014-05-26T10:08:09+09:00</updated>
+		<id>http://kmnmy.github.io/blog/2014/05/26/title</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったので、Appleのチュートリアルを読んだが詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
+
+<p>このようなことから、みんなが陥りやすいiBeaconに対する誤解について簡単にまとめておく。</p>
+
+<p>今回のプロジェクトでは以下のような形でBeaconを使用した。</p>
+
+<ul>
+<li>Beaconの数は合計60個(全てのBeaconのUUIDとMajor IDは同じであり、Minor IDで識別している)</li>
+<li>各々のBeaconは最も近いもので3m程度しか離れていない。</li>
+<li>Beaconに近づくと情報を取得できる仕組み。</li>
+</ul>
+
+
+<p>ネットで多くあげられている誤解（もしくは誤解を生じてしまうトピック)</p>
+
+<ol>
+<li>iOS7.1以降ではバックグラウンドでもiBeaconが反応する（半分間違いであり、誤解を生む)</li>
+<li>最も近いBeaconの取得方法</li>
+<li>一度Beaconに反応すると、二度と反応しないような仕組み(不親切)</li>
+</ol>
+
+
+<h3>1. iOS7.1以降ではバックグラウンドでもBeaconが反応する（半分間違いであり、誤解を生む)</h3>
+
+<p>　iOS7.1以降で確かにBeaconをバックグランドで検知することができるようになった。しかし、それはあくまでユーザーの周りにBeaconがあるかないかを検知するだけである。つまり、ビーコンの範囲に入ったときに呼ばれるEnterRejion/ExitRejionだけを呼ぶことでできるということだ。よって、Beaconとの距離を1秒間隔で取得できるdidRangeBeaconsを呼ぶことは基本的にはフォアグランドではない限りできない（＊すこしの時間ならバックグラウンドでも呼ぶことができる）。つまり、同じUUIDを持ったBeaconが十分に離れていた場合は特に問題にはならないが、Beaconの範囲がかぶっていた場合はバックグラウンドで各々のBeaconを特定することはできない(初めに検知したBeaconは可能だが、他のBeaconは一度範囲を抜けて、他のビーコンに干渉されないところから範囲に入る必要がある←これをユーザーに委ねるのは無理)。</p>
+
+<h3>2. 最も近いBeaconの取得方法</h3>
+
+<p>　多くのネット記事では、最も近いBeaconの取得方法として、検知しているBeacon群が入っているNSArrayからFirstObjectで取得しているが、これは間違いである。必ずしもFirstObjectが最も近いBeaconであるとは限らないからだ。たくさんのBeaconが周りにあると、反応が鈍くなってしまう。</p>
+
+<h3>3. 一度Beaconに反応すると、二度と反応しないような仕組み(不親切)</h3>
+
+<p>　Beaconは1秒おきに反応するので、一度反応すると２度と反応しないような仕様がネット記事では多く見受けられるが、これは不親切である。Beaconに反応した時刻をDictに保持しておくなどし、間隔をあけると再度反応できるような仕様が望ましい。</p>
+]]>
+		</content>
+	</entry>
+	
+</feed>
