@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title><![CDATA[Nantani Blog]]></title>
-	<link href="http://kmnmy.github.io/atom.xml" rel="self"/>
-	<link href="http://kmnmy.github.io/"/>
-	<updated>2014-08-02T07:52:48+09:00</updated>
-	<id>http://kmnmy.github.io/</id>
-	<author>
-		<name><![CDATA[K.Minamiya]]></name>
-		
-	</author>
-	<generator uri="http://octopress.org/">Octopress</generator>
+  <title><![CDATA[Category: Objective-C | Nantani Blog]]></title>
+  <link href="http://kmnmy.github.io/blog/categories/objective-c/atom.xml" rel="self"/>
+  <link href="http://kmnmy.github.io/"/>
+  <updated>2014-08-02T07:52:48+09:00</updated>
+  <id>http://kmnmy.github.io/</id>
+  <author>
+    <name><![CDATA[K.Minamiya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-	
-	<entry>
-		
-			<title type="html"><![CDATA[iBeaconを大規模に運営するために必要な正しい知識]]></title>
-		
-		<link href="http://kmnmy.github.io/blog/2014/07/26/title/"/>
-		<updated>2014-07-26T10:08:09+09:00</updated>
-		<id>http://kmnmy.github.io/blog/2014/07/26/title</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったのだが、Appleのチュートリアルを読んでも詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
+  
+  <entry>
+    <title type="html"><![CDATA[iBeaconを大規模に運営するために必要な正しい知識]]></title>
+    <link href="http://kmnmy.github.io/blog/2014/07/26/title/"/>
+    <updated>2014-07-26T10:08:09+09:00</updated>
+    <id>http://kmnmy.github.io/blog/2014/07/26/title</id>
+    <content type="html"><![CDATA[<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったのだが、Appleのチュートリアルを読んでも詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
 
 <p>このようなことから、みんなが陥りやすい(自分だけかも?)iBeaconに対する誤解について今後のために簡単にまとめておく。</p>
 
@@ -66,27 +58,7 @@
 <li>iOS7.1.0, iOS7.1.2はiBeaconの接続が不安定。iOS7.1.2では不安定な場合もある。普及するためには、iBeaocnの安定性の向上が不可欠である。</li>
 </ul>
 
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA['Yahooのインターンに合格しました']]></title>
-		
-		<link href="http://kmnmy.github.io/blog/2014/07/25/yahoofalseintannihe-ge-simasita/"/>
-		<updated>2014-07-25T07:51:09+09:00</updated>
-		<id>http://kmnmy.github.io/blog/2014/07/25/yahoofalseintannihe-ge-simasita</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<p>ヤフーのエンジニアインターンに合格しました。
-ヘルスケア領域です。</p>
-]]>
-		</content>
-	</entry>
-	
+]]></content>
+  </entry>
+  
 </feed>
