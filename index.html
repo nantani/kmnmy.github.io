@@ -6,10 +6,10 @@
 		<meta charset="utf-8">
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
 		<meta content="width=device-width,initial-scale=1" name="viewport">
-		<meta content="" name="description">
-		<meta content="Nantani Blog" name="author">
+		<meta content="Go Ahead" name="description">
+		<meta content="Blog" name="author">
 		
-		<title>Nantani Blog</title>
+		<title>Blog</title>
 		
 		<!-- Styles -->
 		<link href="/stylesheets/main.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
 		<script type="text/javascript" src="/js/prettify.js"></script>
 		
-		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Nantani Blog" type="application/rss+xml" />-->
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Blog" type="application/rss+xml" />-->
 		
 	</head>
 	<body onload="prettyPrint()">
@@ -34,7 +34,7 @@
 		<div class="wrap">
 	
 			<header>
-				<div class="title">Nantani Blog</div>
+				<div class="title">Blog</div>
 				
 				<div class="navi">
 					<ul>
@@ -51,19 +51,19 @@
 		<!-- START OF _includes/article.html -->
 <article>
 	<header>
-		<h1><a href="/blog/2014/07/26/title/">iBeaconを大規模に運営するために必要な正しい知識</a></h1>
-		<time>26 July 2014</time>
+		<h1><a href="/blog/2014/05/26/title/">大規模運営に必要なiBeaconについての正しい知識</a></h1>
+		<time>26 May 2014</time>
 	</header>
 		<div class="content">
-			<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったのだが、Appleのチュートリアルを読んでも詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
+			<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったので、Appleのチュートリアルを読んだが詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
 
-<p>このようなことから、みんなが陥りやすい(自分だけかも?)iBeaconに対する誤解について今後のために簡単にまとめておく。</p>
+<p>このようなことから、みんなが陥りやすいiBeaconに対する誤解について簡単にまとめておく。</p>
 
 <p>今回のプロジェクトでは以下のような形でBeaconを使用した。</p>
 
 <ul>
 <li>Beaconの数は合計60個(全てのBeaconのUUIDとMajor IDは同じであり、Minor IDで識別している)</li>
-<li>各々のBeaconは最も近いもので3m程度しか離れていない。(つまり各々のBeaconの区域は重なってしまう)</li>
+<li>各々のBeaconは最も近いもので3m程度しか離れていない。</li>
 <li>Beaconに近づくと情報を取得できる仕組み。</li>
 </ul>
 
@@ -89,13 +89,6 @@
 
 <p>　Beaconは1秒おきに反応するので、一度反応すると２度と反応しないような仕様がネット記事では多く見受けられるが、これは不親切である。Beaconに反応した時刻をDictに保持しておくなどし、間隔をあけると再度反応できるような仕様が望ましい。</p>
 
-<h4>その他注意事項</h4>
-
-<ul>
-<li>iOS7.1.0, iOS7.1.2はiBeaconの接続が不安定。iOS7.1.2では不安定な場合もある。普及するためには、iBeaocnの安定性の向上が不可欠である。</li>
-</ul>
-
-
 			
 			
 		</div>
@@ -106,51 +99,6 @@
 		
 
 
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/objective-c/'>Objective-C</a>, <a class='category' href='/blog/categories/ibeacon/'>iBeacon</a>, <a class='category' href='/blog/categories/ios/'>iOS</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2014/07/25/yahoofalseintannihe-ge-simasita/">&#8216;Yahooのインターンに合格しました&#8217;</a></h1>
-		<time>25 July 2014</time>
-	</header>
-		<div class="content">
-			<p>ヤフーのエンジニアインターンに合格しました。
-ヘルスケア領域です。</p>
-
-			
-			
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/healthcare/'>HealthCare</a>, <a class='category' href='/blog/categories/intern/'>Intern,</a>, <a class='category' href='/blog/categories/yahoo/'>Yahoo,</a>
-	
 
 
 	
