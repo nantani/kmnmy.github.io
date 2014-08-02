@@ -9,7 +9,7 @@
 		<meta content="" name="description">
 		<meta content="Nantani Blog" name="author">
 		
-		<title>大規模運営に必要なiBeaconについての正しい知識 &mdash; Nantani Blog</title>
+		<title>iBeaconを大規模に運営するために必要な正しい知識 &mdash; Nantani Blog</title>
 		
 		<!-- Styles -->
 		<link href="/stylesheets/main.css" rel="stylesheet">
@@ -49,19 +49,19 @@
 <!-- START OF _includes/article.html -->
 <article>
 	<header>
-		<h1><a href="/blog/2014/05/26/title/">大規模運営に必要なiBeaconについての正しい知識</a></h1>
-		<time>26 May 2014</time>
+		<h1><a href="/blog/2014/07/26/title/">iBeaconを大規模に運営するために必要な正しい知識</a></h1>
+		<time>26 July 2014</time>
 	</header>
 		<div class="content">
-			<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったので、Appleのチュートリアルを読んだが詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
+			<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったのだが、Appleのチュートリアルを読んでも詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
 
-<p>このようなことから、みんなが陥りやすいiBeaconに対する誤解について簡単にまとめておく。</p>
+<p>このようなことから、みんなが陥りやすい(自分だけかも?)iBeaconに対する誤解について今後のために簡単にまとめておく。</p>
 
 <p>今回のプロジェクトでは以下のような形でBeaconを使用した。</p>
 
 <ul>
 <li>Beaconの数は合計60個(全てのBeaconのUUIDとMajor IDは同じであり、Minor IDで識別している)</li>
-<li>各々のBeaconは最も近いもので3m程度しか離れていない。</li>
+<li>各々のBeaconは最も近いもので3m程度しか離れていない。(つまり各々のBeaconの区域は重なってしまう)</li>
 <li>Beaconに近づくと情報を取得できる仕組み。</li>
 </ul>
 
@@ -87,6 +87,13 @@
 
 <p>　Beaconは1秒おきに反応するので、一度反応すると２度と反応しないような仕様がネット記事では多く見受けられるが、これは不親切である。Beaconに反応した時刻をDictに保持しておくなどし、間隔をあけると再度反応できるような仕様が望ましい。</p>
 
+<h4>その他注意事項</h4>
+
+<ul>
+<li>iOS7.1.0, iOS7.1.2はiBeaconの接続が不安定。iOS7.1.2では不安定な場合もある。普及するためには、iBeaocnの安定性の向上が不可欠である。</li>
+</ul>
+
+
 			
 			
 		</div>
@@ -98,6 +105,13 @@
 
 
 
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/objective-c/'>Objective-C</a>, <a class='category' href='/blog/categories/ibeacon/'>iBeacon</a>, <a class='category' href='/blog/categories/ios/'>iOS</a>
+	
+
 
 	
 	
@@ -105,6 +119,22 @@
 	
 </article>
 <!-- END OF _includes/article.html -->
+
+<div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kmnmy.github.io/blog/2014/07/26/title/" data-via="minamii01" data-counturl="http://kmnmy.github.io/blog/2014/07/26/title/" >Tweet</a>
+  
+  <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button"
+      data-hatena-bookmark-layout="standard"
+      data-hatena-bookmark-url="http://kmnmy.github.io/blog/2014/07/26/title/">
+    <img src="http://b.st-hatena.com/images/entry-button/button-only.gif"
+        alt="このエントリーをはてなブックマークに追加" width="20" height="20"
+        style="border: none">
+  </a>
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
 
 
 <!-- END OF _/layouts/post.html -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Python, | Nantani Blog]]></title>
+  <link href="http://kmnmy.github.io/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://kmnmy.github.io/"/>
+  <updated>2014-08-03T00:25:11+09:00</updated>
+  <id>http://kmnmy.github.io/</id>
+  <author>
+    <name><![CDATA[K.Minamiya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SmartCampusが無事?終了しました]]></title>
+    <link href="http://kmnmy.github.io/blog/2014/07/31/smartcampusgawu-shi-zhong-liao-simasita/"/>
+    <updated>2014-07-31T22:57:57+09:00</updated>
+    <id>http://kmnmy.github.io/blog/2014/07/31/smartcampusgawu-shi-zhong-liao-simasita</id>
+    <content type="html"><![CDATA[<p>オープンキャンパスの企画「SmartCampus」が無事？終了しましたー！
+去年はウェブアプリを書いていましたが、今年はBeaconを使ったiOSアプリを開発しました。</p>
+
+<p>webアプリのソースはこちら
+<a href="http://smartcampus.info">http://smartcampus.info</a>
+iOSアプリのソースはこちら
+<a href="https://github.com/kmnmy">https://github.com/kmnmy</a></p>
+]]></content>
+  </entry>
+  
+</feed>
