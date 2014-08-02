@@ -4,7 +4,7 @@
 	<title><![CDATA[Nantani Blog]]></title>
 	<link href="http://kmnmy.github.io/atom.xml" rel="self"/>
 	<link href="http://kmnmy.github.io/"/>
-	<updated>2014-08-03T00:25:11+09:00</updated>
+	<updated>2014-08-03T00:27:28+09:00</updated>
 	<id>http://kmnmy.github.io/</id>
 	<author>
 		<name><![CDATA[K.Minamiya]]></name>
@@ -34,7 +34,7 @@
 	
 	<entry>
 		
-			<title type="html"><![CDATA[SmartCampusが無事?終了しました]]></title>
+			<title type="html"><![CDATA[SmartCampusが無事？終了しました]]></title>
 		
 		<link href="http://kmnmy.github.io/blog/2014/07/31/smartcampusgawu-shi-zhong-liao-simasita/"/>
 		<updated>2014-07-31T22:57:57+09:00</updated>
@@ -48,10 +48,13 @@
 			<![CDATA[<p>オープンキャンパスの企画「SmartCampus」が無事？終了しましたー！
 去年はウェブアプリを書いていましたが、今年はBeaconを使ったiOSアプリを開発しました。</p>
 
-<p>webアプリのソースはこちら
-<a href="http://smartcampus.info">http://smartcampus.info</a>
-iOSアプリのソースはこちら
-<a href="https://github.com/kmnmy">https://github.com/kmnmy</a></p>
+<p>ソースコードはこちら</p>
+
+<ul>
+<li>web application <a href="http://smartcampus.info">http://smartcampus.info</a></li>
+<li>iOS application <a href="https://github.com/kmnmy">https://github.com/kmnmy</a></li>
+</ul>
+
 ]]>
 		</content>
 	</entry>
