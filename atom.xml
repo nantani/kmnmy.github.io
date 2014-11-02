@@ -4,7 +4,7 @@
 	<title><![CDATA[Nantani Blog]]></title>
 	<link href="http://kmnmy.github.io/atom.xml" rel="self"/>
 	<link href="http://kmnmy.github.io/"/>
-	<updated>2014-11-02T19:41:53+00:00</updated>
+	<updated>2014-11-02T20:24:50+00:00</updated>
 	<id>http://kmnmy.github.io/</id>
 	<author>
 		<name><![CDATA[K.Minamiya]]></name>
@@ -12,6 +12,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Intern in Cambridge, UK]]></title>
+		
+		<link href="http://kmnmy.github.io/blog/2014/11/02/igirisuniintansinikiteimasu/"/>
+		<updated>2014-11-02T20:14:31+00:00</updated>
+		<id>http://kmnmy.github.io/blog/2014/11/02/igirisuniintansinikiteimasu</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Cambridge, UKにあるCambridge Energy Data Labのインターンに参加しています。</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -32,7 +50,7 @@
 <a href="http://toyokeizai.net/articles/-/51181">http://toyokeizai.net/articles/-/51181</a></p>
 
 <p>Hatena news<br/>
-:ttp://hatenanews.com/articles/201410/22957</p>
+<a href="http://hatenanews.com/articles/201410/22957">http://hatenanews.com/articles/201410/22957</a></p>
 
 <p>You tube<br/>
 <a href="https://www.youtube.com/watch?v=r_r-Ww2Wuak">https://www.youtube.com/watch?v=r_r-Ww2Wuak</a></p>
