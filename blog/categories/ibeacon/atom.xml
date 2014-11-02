@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iBeacon | Nantani Blog]]></title>
   <link href="http://kmnmy.github.io/blog/categories/ibeacon/atom.xml" rel="self"/>
   <link href="http://kmnmy.github.io/"/>
-  <updated>2014-08-03T00:27:28+09:00</updated>
+  <updated>2014-11-02T19:41:53+00:00</updated>
   <id>http://kmnmy.github.io/</id>
   <author>
     <name><![CDATA[K.Minamiya]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[iBeaconを大規模に運営するために必要な正しい知識]]></title>
     <link href="http://kmnmy.github.io/blog/2014/07/26/title/"/>
-    <updated>2014-07-26T10:08:09+09:00</updated>
+    <updated>2014-07-26T02:08:09+01:00</updated>
     <id>http://kmnmy.github.io/blog/2014/07/26/title</id>
     <content type="html"><![CDATA[<p>　あるプロジェクトでiBeaconを使ったiOSアプリを作ることになったのだが、Appleのチュートリアルを読んでも詳細についてはあまり書かれていなかった。また、そのためかネット上にはあらゆる誤解を与えてしまう記事が多く見うけられた。</p>
 
